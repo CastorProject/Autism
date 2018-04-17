@@ -6,7 +6,7 @@ import threading
 
 
 class Robot(object):
-    def __init__(self, settings = { 'IpRobot': "192.168.0.102",
+    def __init__(self, settings = { 'IpRobot': "192.168.0.100",
                                     'port'   : 9559,
                                     'name'   : 'Palin',
                                     'UseSpanish': True
@@ -68,7 +68,7 @@ class Robot(object):
     #say hello
     def say_hello(self):
         self.motion.wakeUp()
-        self.tts.say("Hola mi nombre es Jansel")
+        self.tts.say("Hola \\pau=300\\ mi nombre es Jánsel!")
 
     #set1 question 1
     def set1_question1(self):
@@ -100,7 +100,7 @@ class Robot(object):
         self.tts.say("Cuántos ojos tienes?")
     #set3 question 3
     def set3_question3(self):
-        self.tts.say("Te gusta la musica?")
+        self.tts.say("Te gusta la música?")
 
     ############################answers##################
     #set1 answer1
@@ -145,7 +145,7 @@ class Robot(object):
 
     def play_audio(self):
         self.auid = self.audio.playFile("/home/nao/cancion.wav")
-        print self.auid
+
 
     def pause_audio(self):
         self.audio.stopAll()
