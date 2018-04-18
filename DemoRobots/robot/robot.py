@@ -6,7 +6,7 @@ import threading
 
 
 class Robot(object):
-    def __init__(self, settings = { 'IpRobot': "192.168.0.100",
+    def __init__(self, settings = { 'IpRobot': "192.168.0.102",
                                     'port'   : 9559,
                                     'name'   : 'Palin',
                                     'UseSpanish': True
