@@ -15,7 +15,7 @@ r.tts.sayToFile("Cuál es tu nombre?", '/tmp/audio/set1_question1.wav')
 
 r.tts.sayToFile("Cuántos anios tienes!", '/tmp/audio/set1_question2.wav')
 
-r.tts.sayToFile("Te gusta jugar?", '/tmp/audio/set2_question3.wav')
+r.tts.sayToFile("Te gusta jugar?", '/tmp/audio/set1_question3.wav')
 #set2 q2###############################################################
 r.tts.sayToFile("Cuál es tu color favorito?", '/tmp/audio/set2_question1.wav')
 
@@ -44,11 +44,11 @@ r.tts.sayToFile("yo tengo dos hermanos", '/tmp/audio/set2_answer2.wav')
 
 r.tts.sayToFile("A mi me gusta mucho el colegio", '/tmp/audio/set2_answer3.wav')
 #set3 answers#######################################################
-r.tts.sayToFile("La mía es la pasta!", '/tmp/audio/set2_answer1.wav')
+r.tts.sayToFile("La mía es la pasta!", '/tmp/audio/set3_answer1.wav')
 
-r.tts.sayToFile("yo tengo dos ojos", '/tmp/audio/set2_answer2.wav')
+r.tts.sayToFile("yo tengo dos ojos", '/tmp/audio/set3_answer2.wav')
 
-r.tts.sayToFile("A mi me encanta la música", '/tmp/audio/set2_answer3.wav')
+r.tts.sayToFile("A mi me encanta la música", '/tmp/audio/set3_answer3.wav')
 
 #######################################################
 r.tts.sayToFile("Canta conmigo ésta canción", '/tmp/audio/play_music_speech.wav')
