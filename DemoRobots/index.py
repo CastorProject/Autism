@@ -1,4 +1,6 @@
 """INDEX FILE"""
+
+
 import sys
 import os
 import gui.MainWindow as W
@@ -7,6 +9,7 @@ import MainPlugin as MP
 #import PyQt4 gui library
 from PyQt4 import QtCore, QtGui
 
+print "Modified from CastorProject"
 app = QtGui.QApplication(sys.argv)
 Q = QtGui.QMainWindow()
 D = W.Ui_MainWindow()
